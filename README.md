@@ -26,6 +26,8 @@ Result
 
 Repository created successfully.
 
+<img width="1920" height="1080" alt="Screenshot 2026-06-04 121307" src="https://github.com/user-attachments/assets/4905b3e5-f84e-4d50-a69d-4c3dcc320e7f" />
+
 ## Task 2: Clone the Repository
 Objective
 
@@ -48,6 +50,9 @@ Repository cloned successfully.
 On branch main
 nothing to commit, working tree clean
 
+<img width="1920" height="1080" alt="Screenshot 2026-06-04 124141" src="https://github.com/user-attachments/assets/62372c3c-358d-431e-bf0b-24bf2fba1d83" />
+
+
 ## Task 3: Initial Development on Main Branch
 Objective
 
@@ -63,6 +68,8 @@ git push origin main
 Result
 
 Changes pushed successfully to GitHub.
+
+<img width="1920" height="1080" alt="Screenshot 2026-06-04 124807" src="https://github.com/user-attachments/assets/d5d602fe-e6d1-48fd-b425-635e5fadb5a1" />
 
 ## Task 4: Create Feature-A Branch
 Objective
@@ -90,6 +97,7 @@ git push origin feature-A
 Result
 
 Feature-A branch successfully created and pushed.
+
 
 ## Task 5: Create Pull Request
 Objective
@@ -199,7 +207,9 @@ Conflict Example
 =======
 <h1>Feature A Page</h1>
 >>>>>>> main
+
 Resolve Conflict
+
 <!DOCTYPE html>
 <html>
 <head>
