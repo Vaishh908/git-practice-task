@@ -451,6 +451,12 @@ Attempt:
 
 git push origin main
 
+<img width="1515" height="770" alt="Screenshot 2026-06-05 101430" src="https://github.com/user-attachments/assets/2be12f40-71fb-466f-96ab-3d934d33a540" />
+
+
+<img width="1920" height="1080" alt="Screenshot 2026-06-05 101943" src="https://github.com/user-attachments/assets/6150c0cb-10c4-4c4a-a4b4-f80d8ce343ae" />
+
+
 Output:
 
 remote: Protected branch update failed
