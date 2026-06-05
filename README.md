@@ -78,6 +78,7 @@ Create branch feature-A and add index.html.
 
 Create Branch
 git checkout -b feature-A
+
 Create index.html
 <!DOCTYPE html>
 <html>
@@ -99,23 +100,37 @@ Result
 Feature-A branch successfully created and pushed.
 
 
+<img width="1920" height="1080" alt="Screenshot 2026-06-04 125256" src="https://github.com/user-attachments/assets/da291b03-0892-42e5-8e34-ab288eb3e64a" />
+
+
 ## Task 5: Create Pull Request
 Objective
 
 Create Pull Request:
 
 feature-A → main
+
 Steps
 Open GitHub.
 Go to Pull Requests.
+
+<img width="1920" height="1080" alt="Screenshot 2026-06-04 125416" src="https://github.com/user-attachments/assets/385f747c-b500-4972-96e6-651f6adc1576" />
+
 Click New Pull Request.
 Select:
 Base: main
 Compare: feature-A
 Click Create Pull Request.
+
+<img width="1517" height="765" alt="Screenshot 2026-06-04 125439" src="https://github.com/user-attachments/assets/8da79289-a059-47a5-b8c4-fd3b4ac69fe7" />
+
+
 Result
 
 Pull Request created successfully and left unmerged.
+
+<img width="1498" height="765" alt="Screenshot 2026-06-04 125518" src="https://github.com/user-attachments/assets/d5021673-a8ac-4449-b6f1-7325d85e1e1c" />
+
 
 ## Task 6: Create Feature-B Branch
 Objective
@@ -147,9 +162,20 @@ git commit -m "Modified index.html in feature-B"
 
 git push origin feature-B
 
+<img width="1920" height="1080" alt="Screenshot 2026-06-04 125734" src="https://github.com/user-attachments/assets/f62ae2b8-a4b3-4cf2-93dc-9ec1e76fa1a6" />
+
+
 Create Pull Request:
 
 feature-B → main
+
+<img width="1505" height="728" alt="Screenshot 2026-06-04 131102" src="https://github.com/user-attachments/assets/8b8a2aeb-9302-4a9c-9578-26e5131ff8a9" />
+
+<img width="1480" height="783" alt="Screenshot 2026-06-04 131201" src="https://github.com/user-attachments/assets/b988f7d3-5c2e-41b3-8131-85905f695699" />
+
+<img width="1521" height="728" alt="Screenshot 2026-06-04 131311" src="https://github.com/user-attachments/assets/05b10aa6-7f64-4685-80aa-d31d4f63c3f5" />
+
+
 Result
 
 Feature-B branch and PR created successfully.
@@ -170,17 +196,21 @@ Click:
 Merge Pull Request
 Confirm Merge
 
+<img width="1477" height="760" alt="Screenshot 2026-06-04 130612" src="https://github.com/user-attachments/assets/c007299f-e64b-4cd2-b7ea-fba698a9e2e4" />
+
 Update local repository:
 
 git checkout main
 
 git pull origin main
 Verification
+
 cat index.html
 
 Output:
 
 <h1>Feature A Page</h1>
+
 Result
 
 Feature-A merged successfully.
@@ -220,6 +250,13 @@ Resolve Conflict
     <h2>Feature B Page</h2>
 </body>
 </html>
+
+<img width="1495" height="776" alt="Screenshot 2026-06-04 131358" src="https://github.com/user-attachments/assets/6a5f8803-e308-4d73-b71f-592475770c10" />
+
+
+<img width="1480" height="783" alt="Screenshot 2026-06-04 131201" src="https://github.com/user-attachments/assets/7c291db7-6042-47db-a82a-36734dc6f2b8" />
+
+
 Commit Resolution
 git add index.html
 
@@ -266,9 +303,14 @@ Steps
 
 Fork repository.
 
+<img width="1920" height="1080" alt="Screenshot 2026-06-04 144851" src="https://github.com/user-attachments/assets/d85546d3-5178-4bb4-a3dd-ceb4ecc239fb" />
+
+
 Clone:
 
 git clone https://github.com/username/forked-repo.git
+
+<img width="1920" height="1080" alt="Screenshot 2026-06-04 144914" src="https://github.com/user-attachments/assets/dca3e68d-bd10-464d-9aa2-0457d6af835a" />
 
 Modify README.
 
@@ -280,7 +322,18 @@ git commit -m "Updated README"
 
 git push origin main
 
+<img width="1920" height="1080" alt="Screenshot 2026-06-04 145735" src="https://github.com/user-attachments/assets/24f04969-4646-4aeb-a6d4-fe6aa1c94aeb" />
+
+
 Create Pull Request to fork repository.
+
+<img width="1507" height="742" alt="Screenshot 2026-06-04 150700" src="https://github.com/user-attachments/assets/7247df34-bf15-4290-9408-618c7a1bf1b0" />
+
+<img width="1497" height="727" alt="Screenshot 2026-06-04 150716" src="https://github.com/user-attachments/assets/01781119-5700-4889-af7e-3640fc14f66b" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-06-04 150806" src="https://github.com/user-attachments/assets/b8b2cb92-d7ff-47c4-ab48-4b7e472ee72e" />
+
+<img width="1517" height="677" alt="Screenshot 2026-06-04 151108" src="https://github.com/user-attachments/assets/c2f69bec-e0fc-4307-9459-46de44bbbc15" />
 
 Result
 
@@ -291,16 +344,26 @@ Objective
 
 Create private GitLab repository.
 
+<img width="1535" height="772" alt="Screenshot 2026-06-04 151339" src="https://github.com/user-attachments/assets/1cae2d2e-d0b5-4e2a-b914-434bde832f5a" />
+
 Clone Using SSH
 git clone git@gitlab.com:username/project.git
+
+<img width="1523" height="732" alt="Screenshot 2026-06-04 151456" src="https://github.com/user-attachments/assets/1670aaef-3dac-4832-8e21-4b3d41e84772" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-06-04 153111" src="https://github.com/user-attachments/assets/0c810e9b-0925-4ef4-8520-2da491712f62" />
+
 Project Structure
+
 project/
 ├── src/
 │   └── app.py
 ├── docs/
 │   └── guide.md
 └── README.md
+
 Create Structure
+
 mkdir src docs
 
 touch src/app.py
@@ -312,6 +375,11 @@ git add .
 git commit -m "Initial project structure"
 
 git push origin main
+
+<img width="1920" height="1080" alt="Screenshot 2026-06-04 153121" src="https://github.com/user-attachments/assets/affd85ff-7f27-42ea-9471-97868672f05e" />
+
+<img width="1520" height="761" alt="Screenshot 2026-06-04 154042" src="https://github.com/user-attachments/assets/22613b16-279a-485d-904b-9f7efa4dd972" />
+
 Result
 
 GitLab repository configured successfully.
@@ -386,6 +454,7 @@ git push origin main
 Output:
 
 remote: Protected branch update failed
+
 Result
 
 Direct pushes blocked successfully.
