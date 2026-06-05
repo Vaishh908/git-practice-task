@@ -401,6 +401,9 @@ Add:
 
 GitHub Repository URL
 
+<img width="1920" height="1080" alt="Screenshot 2026-06-05 124452" src="https://github.com/user-attachments/assets/48b6d772-f843-4955-aeb8-3b8e22a05a74" />
+
+
 Authentication:
 
 GitHub Username
@@ -410,6 +413,12 @@ Enable:
 
 Push Mirroring
 Verification
+
+
+<img width="1920" height="1080" alt="Screenshot 2026-06-05 124546" src="https://github.com/user-attachments/assets/b664114f-ce8e-4fc8-9903-62073df1f2b5" />
+
+
+<img width="1920" height="1080" alt="Screenshot 2026-06-05 124603" src="https://github.com/user-attachments/assets/470aef2a-7168-403e-9ca0-cc8150c40b16" />
 
 Push a change:
 
